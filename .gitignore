@@ -1,0 +1,14 @@
+# Java files (prevent future commits)
+*.class
+*.jar
+pom.xml
+mvnw*
+.mvn/
+src/main/java/
+src/test/java/
+target/
+
+# Laravel
+/vendor/
+.env
+/storage/logs/
