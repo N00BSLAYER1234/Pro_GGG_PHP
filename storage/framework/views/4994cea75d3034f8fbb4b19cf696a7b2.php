@@ -5,7 +5,7 @@
 
 <?php $__env->startSection('content'); ?>
 <div class="text-center">
-    <h1>🎉 Quiz Complete!</h1>
+    <h1> Quiz Complete!</h1>
 
     <div class="score-display" style="margin: 30px 0;">
         <div class="score-circle">
