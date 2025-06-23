@@ -485,12 +485,10 @@ class ComposerStaticInit88970a0117c062eed55fa8728fc43833
         'Database\\Seeders\\' => 
         array (
             0 => __DIR__ . '/../..' . '/database/seeders',
-            1 => __DIR__ . '/..' . '/laravel/pint/database/seeders',
         ),
         'Database\\Factories\\' => 
         array (
             0 => __DIR__ . '/../..' . '/database/factories',
-            1 => __DIR__ . '/..' . '/laravel/pint/database/factories',
         ),
         'Cron\\' => 
         array (
@@ -511,12 +509,13 @@ class ComposerStaticInit88970a0117c062eed55fa8728fc43833
         'App\\' => 
         array (
             0 => __DIR__ . '/../..' . '/app',
-            1 => __DIR__ . '/..' . '/laravel/pint/app',
         ),
     );
 
     public static $classMap = array (
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
+        'App\\Http\\Controllers\\QuizController' => __DIR__ . '/../..' . '/app/Http/Controllers/QuizController.php',
+        'App\\Models\\Country' => __DIR__ . '/../..' . '/app/Models/Country.php',
         'App\\Models\\User' => __DIR__ . '/../..' . '/app/Models/User.php',
         'App\\Providers\\AppServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AppServiceProvider.php',
         'Attribute' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
@@ -637,6 +636,7 @@ class ComposerStaticInit88970a0117c062eed55fa8728fc43833
         'Cron\\MinutesField' => __DIR__ . '/..' . '/dragonmantank/cron-expression/src/Cron/MinutesField.php',
         'Cron\\MonthField' => __DIR__ . '/..' . '/dragonmantank/cron-expression/src/Cron/MonthField.php',
         'Database\\Factories\\UserFactory' => __DIR__ . '/../..' . '/database/factories/UserFactory.php',
+        'Database\\Seeders\\CountrySeeder' => __DIR__ . '/../..' . '/database/seeders/CountrySeeder.php',
         'Database\\Seeders\\DatabaseSeeder' => __DIR__ . '/../..' . '/database/seeders/DatabaseSeeder.php',
         'DateError' => __DIR__ . '/..' . '/symfony/polyfill-php83/Resources/stubs/DateError.php',
         'DateException' => __DIR__ . '/..' . '/symfony/polyfill-php83/Resources/stubs/DateException.php',
@@ -1992,6 +1992,7 @@ class ComposerStaticInit88970a0117c062eed55fa8728fc43833
         'Illuminate\\Database\\Eloquent\\Concerns\\HasUniqueStringIds' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/HasUniqueStringIds.php',
         'Illuminate\\Database\\Eloquent\\Concerns\\HasUuids' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/HasUuids.php',
         'Illuminate\\Database\\Eloquent\\Concerns\\HasVersion4Uuids' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/HasVersion4Uuids.php',
+        'Illuminate\\Database\\Eloquent\\Concerns\\HasVersion7Uuids' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/HasVersion7Uuids.php',
         'Illuminate\\Database\\Eloquent\\Concerns\\HidesAttributes' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/HidesAttributes.php',
         'Illuminate\\Database\\Eloquent\\Concerns\\PreventsCircularRecursion' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/PreventsCircularRecursion.php',
         'Illuminate\\Database\\Eloquent\\Concerns\\QueriesRelationships' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/QueriesRelationships.php',
@@ -2726,6 +2727,7 @@ class ComposerStaticInit88970a0117c062eed55fa8728fc43833
         'Illuminate\\Support\\Optional' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Support/Optional.php',
         'Illuminate\\Support\\Pluralizer' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Support/Pluralizer.php',
         'Illuminate\\Support\\ProcessUtils' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Support/ProcessUtils.php',
+        'Illuminate\\Support\\Process\\PhpExecutableFinder' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Support/Process/PhpExecutableFinder.php',
         'Illuminate\\Support\\Reflector' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Support/Reflector.php',
         'Illuminate\\Support\\ServiceProvider' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Support/ServiceProvider.php',
         'Illuminate\\Support\\Sleep' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Support/Sleep.php',

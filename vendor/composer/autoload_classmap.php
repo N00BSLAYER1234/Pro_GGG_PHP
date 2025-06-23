@@ -7,6 +7,8 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'App\\Http\\Controllers\\Controller' => $baseDir . '/app/Http/Controllers/Controller.php',
+    'App\\Http\\Controllers\\QuizController' => $baseDir . '/app/Http/Controllers/QuizController.php',
+    'App\\Models\\Country' => $baseDir . '/app/Models/Country.php',
     'App\\Models\\User' => $baseDir . '/app/Models/User.php',
     'App\\Providers\\AppServiceProvider' => $baseDir . '/app/Providers/AppServiceProvider.php',
     'Attribute' => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
@@ -127,6 +129,7 @@ return array(
     'Cron\\MinutesField' => $vendorDir . '/dragonmantank/cron-expression/src/Cron/MinutesField.php',
     'Cron\\MonthField' => $vendorDir . '/dragonmantank/cron-expression/src/Cron/MonthField.php',
     'Database\\Factories\\UserFactory' => $baseDir . '/database/factories/UserFactory.php',
+    'Database\\Seeders\\CountrySeeder' => $baseDir . '/database/seeders/CountrySeeder.php',
     'Database\\Seeders\\DatabaseSeeder' => $baseDir . '/database/seeders/DatabaseSeeder.php',
     'DateError' => $vendorDir . '/symfony/polyfill-php83/Resources/stubs/DateError.php',
     'DateException' => $vendorDir . '/symfony/polyfill-php83/Resources/stubs/DateException.php',
@@ -1482,6 +1485,7 @@ return array(
     'Illuminate\\Database\\Eloquent\\Concerns\\HasUniqueStringIds' => $vendorDir . '/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/HasUniqueStringIds.php',
     'Illuminate\\Database\\Eloquent\\Concerns\\HasUuids' => $vendorDir . '/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/HasUuids.php',
     'Illuminate\\Database\\Eloquent\\Concerns\\HasVersion4Uuids' => $vendorDir . '/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/HasVersion4Uuids.php',
+    'Illuminate\\Database\\Eloquent\\Concerns\\HasVersion7Uuids' => $vendorDir . '/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/HasVersion7Uuids.php',
     'Illuminate\\Database\\Eloquent\\Concerns\\HidesAttributes' => $vendorDir . '/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/HidesAttributes.php',
     'Illuminate\\Database\\Eloquent\\Concerns\\PreventsCircularRecursion' => $vendorDir . '/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/PreventsCircularRecursion.php',
     'Illuminate\\Database\\Eloquent\\Concerns\\QueriesRelationships' => $vendorDir . '/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/QueriesRelationships.php',
@@ -2216,6 +2220,7 @@ return array(
     'Illuminate\\Support\\Optional' => $vendorDir . '/laravel/framework/src/Illuminate/Support/Optional.php',
     'Illuminate\\Support\\Pluralizer' => $vendorDir . '/laravel/framework/src/Illuminate/Support/Pluralizer.php',
     'Illuminate\\Support\\ProcessUtils' => $vendorDir . '/laravel/framework/src/Illuminate/Support/ProcessUtils.php',
+    'Illuminate\\Support\\Process\\PhpExecutableFinder' => $vendorDir . '/laravel/framework/src/Illuminate/Support/Process/PhpExecutableFinder.php',
     'Illuminate\\Support\\Reflector' => $vendorDir . '/laravel/framework/src/Illuminate/Support/Reflector.php',
     'Illuminate\\Support\\ServiceProvider' => $vendorDir . '/laravel/framework/src/Illuminate/Support/ServiceProvider.php',
     'Illuminate\\Support\\Sleep' => $vendorDir . '/laravel/framework/src/Illuminate/Support/Sleep.php',
