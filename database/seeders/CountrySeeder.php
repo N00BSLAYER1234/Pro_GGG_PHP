@@ -10,7 +10,7 @@ class CountrySeeder extends Seeder
 {
     public function run()
     {
-        // First, let's add country codes to the existing data from your SQL file
+    
         $countries = [
             ['code' => 'AF', 'name' => 'Afghanistan', 'capital' => 'Kabul', 'region' => 'Asia'],
             ['code' => 'AL', 'name' => 'Albania', 'capital' => 'Tirana', 'region' => 'Europe'],
